@@ -16,3 +16,30 @@
   --border-primary: #d1d5db;
   --border-hover: #b9c2d0;
 }
+.app {
+  max-width: 627px;
+  width: 100%;
+  margin-inline: auto;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.button-text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5rem;
+
+  a {
+    font-size: 1rem;
+    color: var(--color-brand);
+  }
+  img {
+    width: 1.3rem;
+  }
+}
+h2 {
+  margin-block: 1rem 44px;
+  font-size: 24px;
+}

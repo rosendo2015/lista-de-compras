@@ -16,6 +16,9 @@
   --border-primary: #d1d5db;
   --border-hover: #b9c2d0;
 }
+body {
+  background-color: var(--background-primary);
+}
 .app {
   max-width: 627px;
   width: 100%;

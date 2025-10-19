@@ -27,8 +27,10 @@
             <input id="add-item" type="text" placeholder="Adicione um novo item">
             <button onclick=addItemList() id="btn">Adicionar item</button>
         </form>
+        <div id="editar"></div>
+
+
         <ul rule="list" id="items">
-            <!--
             <li class="item">
                 <div>
                     <input type="checkbox" name="item" id="item1">
@@ -43,7 +45,7 @@
                     <input type="checkbox" name="item" id="item2">
                     <span>Café preto</span>
                 </div>
-                <a href="#">
+                <a href="#" onclick="deletarItem(id)">
                     <img src="assets/trash.svg" alt="lixeira">
                 </a>
             </li>
@@ -52,7 +54,7 @@
                     <input type="checkbox" name="item" id="item3">
                     <span>Suco de laranja</span>
                 </div>
-                <a href="#">
+                <a href="#" onclick="deletarItem(id)">
                     <img src="assets/trash.svg" alt="lixeira">
                 </a>
             </li>
@@ -61,11 +63,10 @@
                     <input type="checkbox" name="item" id="item3">
                     <span>Bolacha</span>
                 </div>
-                <a href="#">
+                <a href="#" onclick="deletarItem(id)">
                     <img src="assets/trash.svg" alt="lixeira">
                 </a>
             </li>
-        -->
         </ul>
     </div>
     <script src="js/scripts.js"></script>

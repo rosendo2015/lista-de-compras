@@ -3,6 +3,8 @@ const form = document.getElementById('add-item');
 const list = document.getElementById('items');
 const button = document.querySelector('#btn');
 
+const items = document.querySelectorAll('.item');
+
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 })

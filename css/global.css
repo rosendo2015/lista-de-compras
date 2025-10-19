@@ -20,6 +20,7 @@ body {
   background-color: var(--background-primary);
 }
 .app {
+  padding-inline: 2rem;
   max-width: 627px;
   width: 100%;
   margin-inline: auto;

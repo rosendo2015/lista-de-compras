@@ -23,17 +23,18 @@
             <a href="#"> Voltra</a>
         </div>
         <h2>Compras da semana</h2>
-        <form id="add-item">
-            <input class="add-input" type="text" placeholder="Adicione um novo item">
-            <button id="btn">Adicionar item</button>
+        <form id="form">
+            <input id="add-item" type="text" placeholder="Adicione um novo item">
+            <button onclick=addItemList() id="btn">Adicionar item</button>
         </form>
         <ul rule="list" id="items">
+            <!--
             <li class="item">
                 <div>
                     <input type="checkbox" name="item" id="item1">
                     <span>Pão de forma</span>
                 </div>
-                <a href="#">
+                <a href="#" onclick="deletarItem(id)">
                     <img src="assets/trash.svg" alt="lixeira">
                 </a>
             </li>
@@ -64,6 +65,7 @@
                     <img src="assets/trash.svg" alt="lixeira">
                 </a>
             </li>
+        -->
         </ul>
     </div>
     <script src="js/scripts.js"></script>

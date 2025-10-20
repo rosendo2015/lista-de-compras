@@ -15,6 +15,7 @@
   --content-tertiary: #9ca3af;
   --border-primary: #d1d5db;
   --border-hover: #b9c2d0;
+  --color-green: #045b17;
 }
 body {
   background-color: var(--background-primary);
@@ -46,4 +47,13 @@ a {
 h2 {
   margin-block: 1rem 44px;
   font-size: 24px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.riscado {
+  text-decoration: line-through;
 }

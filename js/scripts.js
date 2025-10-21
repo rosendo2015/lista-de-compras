@@ -2,6 +2,7 @@ form = document.getElementById("form");
 editar = document.getElementById("editar");
 input = document.getElementById("add-item");
 ul = document.getElementById("items");
+notificacao = document.querySelector(".notificacao");
 
 
 let listCompras = [
@@ -125,8 +126,26 @@ function deletarItem(id){
   if (li) {
     li.remove();
   }
-
+const notificacao = document.querySelector(".notificacao");
+  notificacao.classList.remove("hide");
+  notificacao.style.display = "flex";
+  fecharNotificacao()
 }
+function fecharNotificacao() {
+setTimeout(() => {
+    notificacao.style.display = "none";
+    notificacao.classList.add("hide");
+  }, 5000); // 5000 milissegundos = 5 segundos
+
+  const notificacao = document.querySelector(".notificacao");
+  notificacao.classList.add("hide");
+}
+
+function fecharNotificacaoManual(){
+notificacao.style.display = "none";
+notificacao.classList.add("hide");
+}
+
 function riscarTexto(id) {
   const texto = document.getElementById(`texto-${id}`);
   const checkbox = event.target;

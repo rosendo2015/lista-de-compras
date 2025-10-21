@@ -29,9 +29,16 @@
         </form>
         <div id="editar" style="display: none;"></div>
 
-        <ul rule="list" id="items">
-
-        </ul>
+        <ul rule="list" id="items"></ul>
+        <div class="notificacao hide">
+            <span>
+                <img src="assets/warning-circle-filled.svg" alt="warning">
+                O item foi removido da lista
+            </span>
+            <a onclick="fecharNotificacaoManual()" href="#">
+                <img src="assets/delete-small.svg" alt="x">
+            </a>
+        </div>
     </div>
     <script src="js/scripts.js"></script>
 </body>

@@ -38,6 +38,7 @@
 - Display GRID
 - Acessibilidade
 - Tags semanticas
+
 - Entidade que regulamenta a semantica no Brasil [W3C](https://www.w3c.br/Padroes/WebSemantica)
 - Conceito da programação chamado <b>REFATORAÇÃO</b>: mudar algo interno na página sem estragar o que esta funcionando, é feito com a intenção de melhorar algo interno no código do site.
 
